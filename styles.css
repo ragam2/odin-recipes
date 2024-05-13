@@ -15,7 +15,8 @@ h2 {
 
 p,
 ul,
-ol {
+ol,
+a {
     font-size:40px;
 }
 
@@ -31,7 +32,7 @@ li {
 }
 
 a:link {
-    color: rgb(63, 63, 248)
+    color: rgb(94, 94, 245)
 }
 
 a:visited {
