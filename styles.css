@@ -24,13 +24,24 @@ body {
     background-color: rgb(60, 60, 60);
 }
 
+/* Styles for lists */
+
 .bullet-point li {
-    display: inline-block;
+    margin-bottom: 30px;
     background-color: rgb(30, 30, 30);
     border: 3px solid rgb(226, 136, 226);
     padding: 12px 24px 12px 24px;
     margin: 4 auto;
+}
+
+.bullet-point.ingredients li {
+    display: inline-block;
     list-style-type: none;
+}
+
+.bullet-point.steps li {
+    display: block;
+    list-style-type: decimal;
 }
 
 .recipe {
@@ -52,17 +63,6 @@ ul,
 ol,
 a {
     font-size:40px;
-}
-
-/* places the bullet points directly next to the text so they align properly */
-ul,
-ol {
-    list-style-position: inside;
-}
-
-/* margin-bottom gives some space below each li entry */
-li {
-    margin-bottom: 30px;
 }
 
 a:link {
