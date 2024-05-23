@@ -35,6 +35,12 @@ body {
     list-style-type: none;
 }
 
+.recipe {
+    background-color: rgb(30, 30, 30);
+    border: 2px solid rgb(226, 136, 226);
+    padding: 16px 16px 16px 16px;
+}
+
 h1 {
     font-size: 72px
 }
