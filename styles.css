@@ -16,23 +16,36 @@ body {
 
 /* Styles for sections */
 
+.section.title {
+    background-color: rgb(60, 60, 60);
+    border: none;
+}
+
 .section.header {
     background-color: rgb(30, 30, 30);
     padding: 8px 12px 8px 12px;
-    border: 2px solid rgb(226, 136, 226);
 }
 
 .section.content {
     background-color: rgb(60, 60, 60);
 }
 
-.section.title {
-    background-color: rgb(60, 60, 60);
-    border: none;
+.section.description {
+    border: 1px solid rgb(226, 136, 226);
+    margin: 30px auto;
+    padding: 8px 24px 8px 24px;
 }
 
-.section.description {
+.section.ingredients {
+    border: 1px solid rgb(226, 136, 226);
+    margin: 30px auto;
+    padding: 8px 24px 8px 24px;
+}
 
+.section.steps {
+    border: 1px solid rgb(226, 136, 226);
+    margin: 30px auto;
+    padding: 8px 24px 8px 24px;
 }
 
 /* Styles for lists */
@@ -40,7 +53,6 @@ body {
 .bullet-point li {
     margin-bottom: 30px;
     background-color: rgb(30, 30, 30);
-    border: 3px solid rgb(226, 136, 226);
     padding: 12px 24px 12px 24px;
     margin: 4 auto;
 }
